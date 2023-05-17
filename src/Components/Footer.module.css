@@ -1,0 +1,82 @@
+.container {
+    margin-top: 20rem;
+    background-color: #00B8DF;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
+.socialMedia {
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMedia img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.simpleLine {
+    display: none;
+}
+
+.clinicData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5px;
+}
+
+.clinicData p {
+    font-size: 10px;
+    font-family: shabnam;
+    color: #fff;
+}
+
+.clinicData p:nth-child(5) {
+    font-size: 9px;
+}
+
+
+
+a{color: #fff;}
+
+p[lang="fa"] { direction: rtl; text-align: justify; }
+
+@media only screen and (min-width: 950px) {
+
+    .simpleLine {
+        display: flex;
+        height: 80%;
+        width: 2px;
+        background-color: white;
+        margin-left: 20px;
+    }
+
+    .container {
+        padding: 0 2rem;
+    }
+    
+    .socialMedia {
+        width: 10rem;
+    }
+    
+    .socialMedia img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .clinicData p{
+        font-size: 14px;
+    }
+
+    .clinicData p:nth-child(5) {
+        font-size: 12px;
+    }
+}
