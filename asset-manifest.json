@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/css/main.a6f695d2.css",
+    "main.js": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/js/main.965982ac.js",
+    "static/media/pic2.jpg": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/pic2.05c4d2756e5e32c54adb.jpg",
+    "static/media/pic1.jpg": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/pic1.9717aa1360f1b80f4aa3.jpg",
+    "static/media/Vazir.woff": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/Vazir.a30b9598c58099f1584c.woff",
+    "static/media/Shabnam.woff": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/Shabnam.3071005dd6251330d2db.woff",
+    "static/media/logo512.png": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/logo512.0f0714b8396181c728bb.png",
+    "static/media/waze_icon.svg": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/waze_icon.571e2648fbf7df7216741c0112768e79.svg",
+    "static/media/map-icon.svg": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/map-icon.3de69d38822c593869ac59d292128775.svg",
+    "static/media/instagram_icon.svg": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/instagram_icon.9d020be38d7e653b2007497ab927984c.svg",
+    "index.html": "/'https://khashayarmobarez.github.io/dentalOfficeProject/index.html",
+    "static/media/telegram_icon.svg": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/media/telegram_icon.2d32bfd727fab82456b0ecdfc9234c08.svg",
+    "main.a6f695d2.css.map": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/css/main.a6f695d2.css.map",
+    "main.965982ac.js.map": "/'https://khashayarmobarez.github.io/dentalOfficeProject/static/js/main.965982ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f695d2.css",
+    "static/js/main.965982ac.js"
+  ]
+}
