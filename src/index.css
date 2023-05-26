@@ -6,11 +6,11 @@
 @font-face {
   font-family: "shabnam";   /*Can be any text*/
   src: local("Shabnam"),
-    url("./fonts/Shabnam.woff") format("woff");
+    url("./media/fonts/Shabnam.woff") format("woff");
 }
 
 @font-face {
   font-family: "vazir";   /*Can be any text*/
   src: local("Vazir"),
-    url("./fonts/Vazir.woff") format("woff");
+    url("./media/fonts/Vazir.woff") format("woff");
 }

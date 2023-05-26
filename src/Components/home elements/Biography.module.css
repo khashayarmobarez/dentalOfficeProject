@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+
+.Container {
+    background-color: #0B4E5f;
+    width: 100%;
+    height: 75rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.474);
+    box-sizing: border-box;
+}
+
+p[lang="fa"] { direction: rtl; text-align: center; }
+h1[lang="fa"] { direction: rtl; text-align: justify; }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 400;
+    width: 70%;
+}
+
+.description h1 {
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 0.7rem;
+}
+
+.DoctorPics {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+}
+
+
+.DoctorPics img {
+    height: 100%;
+    width: auto;
+    border-radius: 5%;
+}
+
+@media only screen and (min-width: 650px) { 
+
+    .Container {
+        height: 65rem;
+    }
+
+    .DoctorPics {
+        height: 35%;
+    }
+
+}
+
+
+
+    @media only screen and (min-width: 1070px) {
+
+    p[lang="fa"] {text-align: justify; }
+
+        .Container {
+            padding: 1rem 4rem;
+            height: 38rem;
+            flex-direction: row;
+        }
+
+        
+        .DoctorPics {
+            height: 80%;
+            margin-right: 10px;
+        }
+
+        .description {
+            align-items:flex-end;
+          justify-content: center;
+           text-align: center;
+        }
+}

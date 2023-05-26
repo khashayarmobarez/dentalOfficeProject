@@ -18,7 +18,7 @@ const Ul = styled.ul`
   justify-content: right;
   margin:18px 30px 18px 0;
   border-radius: 0 0 0 10px;
-  z-index: 10;
+  z-index: 21;
   transition: all 0.75s ease;
     @media (max-width: 950px) {
         flex-direction:column;
@@ -26,7 +26,7 @@ const Ul = styled.ul`
         margin:0;
         top:0;
         right:0;
-        width:60%;
+        width:70%;
         height:70vh;
         padding-top:3.5rem;
         color:#fff;
@@ -54,8 +54,10 @@ const Navbar = ({open}) => {
                 <li><Link to='' className={styles.naVbutton}>کلینیک و محیط درمانی</Link></li>
                 <li><Link to='' className={styles.naVbutton}>آموزش</Link></li>
                 <li><Link to='' className={styles.naVbutton}>متخصصین همکار</Link></li>
-                <li><Link to='' className={styles.naVbutton}>صفحه اصلی</Link></li>
+                <li><Link to='/Home' className={styles.naVbutton}>صفحه اصلی</Link></li>
                 <li><Link to='' className={`${styles.naVbutton} ${styles.reserveButton}`}>نوبت دهی آنلاین</Link></li>
+                <li><Link to='' className={styles.naVbutton}>گالری</Link></li>
+                <li><Link to='' className={styles.naVbutton}>مقالات</Link></li>
               </Ul>
         </Container>    
     );

@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 
 const Div = styled.div`
     display:none;
-    z-index:20;
+    z-index:22;
     flex-direction:column;
     align-items:center;
     position:fixed;

@@ -3,8 +3,41 @@
     margin-top: -68vh;
 }
 
+.imageContainer {
+    height: 20rem;
+}
+
 .imageContainer img {
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    filter: brightness(70%);
+    height: 100%;
+}
+
+.OnPicWriting {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    position: absolute;
+    height: 25vh;
+    z-index: 20;
+}
+
+.OnPicWriting h1 {
+    font-size: 28px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.OnPicWriting p1 {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+@media only screen and (min-width: 950px) {
+        
 }
 
 
@@ -16,15 +49,23 @@
     }
 
     .imageContainer{
-      height: 35rem;
+      height: 45rem;
       overflow: hidden;
-      
     }
 
     .imageContainer img {
         object-fit: cover;
         width: 100%;
         height: 100%;
+        object-fit: unset;
+      }
+
+      .OnPicWriting {
+        margin-top: 14rem;
+      }
+
+      .OnPicWriting h1 {
+        font-size: 50px;
       }
 
 }

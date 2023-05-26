@@ -1,0 +1,41 @@
+
+.slider {
+    width: 90%;
+
+    margin-top: 4rem;
+    box-sizing: border-box;
+    height: 30rem;
+}
+
+.imgComp {
+    margin:0 14%;
+}
+
+.imgComp img{
+    box-sizing: border-box;
+    width: 18rem;
+    border: 4px solid #0B4E5f;
+    border-radius: 10px;
+}
+
+.customPrevArrow {
+    background-color: red;
+}
+
+@media only screen and (min-width: 540px) {
+    .imgComp {
+        margin:0 25%;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+
+    .imgComp {
+        margin:0 5%;
+    }
+
+    .imgComp img {
+        width: 21rem;
+    }
+
+}

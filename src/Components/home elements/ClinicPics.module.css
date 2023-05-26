@@ -1,0 +1,158 @@
+.Container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 85%;
+    height: 47rem;
+    margin-top: -4rem;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.picsContainer {
+    width: 400px;
+    height: 420px;
+    box-sizing: border-box;
+    margin-right: 2rem;
+}
+
+.picsContainer img {
+    width: 400px;
+    height: 400px;
+    margin-top: -340px;
+    margin-left: 40px; 
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+ }
+
+.backPic {
+    border-radius: 5%;
+    width: 380px;
+    height: 380px;
+    background-color: #D9D9D9 ;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.textsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 190px;
+}
+
+h1[lang="fa"] { direction: rtl; text-align: justify; }
+
+p[lang="fa"] { direction: rtl; text-align: justify; }
+
+.textsContainer h1 {
+    font-size: 35px;
+    font-family: shabnam;
+    font-weight: 300;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #0B4E5F;
+}
+
+.textsContainer p {
+    font-size: 15px;
+    font-family: shabnam;
+    font-weight: 300;
+    color: #14272C;
+    display: flex;
+    text-align: center;
+}
+
+.callData {
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.callData p{
+    font-weight: 600;
+}
+
+.DoctorDirectCall {
+    margin-top: 0.5rem;
+    border-bottom: 3px solid #00B8DF;
+}
+
+.DoctorDirectCall p {
+    font-weight: 600;
+    color:#00B8DF;
+}
+
+
+
+@media only screen and (min-width: 570px) {
+    .Container {
+            margin-top: 3rem;
+            width: 100%;
+    }
+
+    .textsContainer {
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media only screen and (min-width: 570px) {
+    .Container {
+            margin-top: 7rem;
+    }
+}
+
+
+@media only screen and (min-width: 850px) {
+    .Container {
+            margin-top: 10rem;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+    .textsContainer {
+        width: 750px;
+        height: 430px;
+        margin-right: 2rem;
+    }
+
+    .textsContainer h1 {
+        font-size: 48px;
+    }
+
+    .textsContainer p {
+        font-size: 20px;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction:row-reverse;
+        width: 85%;
+        height: auto;
+        justify-content: space-between;
+        margin-top:4rem ;
+    }
+
+    .callData {
+        width: 20rem;
+    }
+
+    .callData p{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .DoctorDirectCall p {
+        font-size: 21px;
+    }
+
+
+
+}
