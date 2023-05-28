@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/dentalOfficeProject/static/css/main.5a19b838.css",
-    "main.js": "/dentalOfficeProject/static/js/main.5bb7b1ee.js",
+    "main.css": "/dentalOfficeProject/static/css/main.c6471714.css",
+    "main.js": "/dentalOfficeProject/static/js/main.945bf9d2.js",
+    "static/media/Screenshot 2023-05-28 171028.png": "/dentalOfficeProject/static/media/Screenshot 2023-05-28 171028.ba1f39292a1f2e517711.png",
     "static/media/clinic pic 5.jpeg": "/dentalOfficeProject/static/media/clinic pic 5.3177519ff272836bfb5a.jpeg",
     "static/media/8.jpg": "/dentalOfficeProject/static/media/8.34ed0b1ec885163537e5.jpg",
     "static/media/certificate 8.jpg": "/dentalOfficeProject/static/media/certificate 8.e4b0b60831fc72177365.jpg",
@@ -19,14 +20,17 @@
     "static/media/6.jpg": "/dentalOfficeProject/static/media/6.c10cd097d16ad9ea46bd.jpg",
     "static/media/clinic pic 3.jpg": "/dentalOfficeProject/static/media/clinic pic 3.4769f00ebd99630763e5.jpg",
     "static/media/certificate 2.jpg": "/dentalOfficeProject/static/media/certificate 2.b35e1bac9b096b24422f.jpg",
+    "static/media/iphone.png": "/dentalOfficeProject/static/media/iphone.160aace64afb9c58e511.png",
     "static/media/end 3.jpg": "/dentalOfficeProject/static/media/end 3.81c222f6103e8e61fd16.jpg",
     "static/media/cert 2.jpg": "/dentalOfficeProject/static/media/cert 2.2ce6a86f981123b44ebb.jpg",
     "static/media/11.jpg": "/dentalOfficeProject/static/media/11.95b97cfc68b4469569d4.jpg",
     "static/media/clinic pic 1 cropped.jpg": "/dentalOfficeProject/static/media/clinic pic 1 cropped.7fa02e9f7217e17c0131.jpg",
+    "static/media/phoneVersion.jpg": "/dentalOfficeProject/static/media/phoneVersion.c5978f6748b5b122f2cb.jpg",
     "static/media/end 2.jpg": "/dentalOfficeProject/static/media/end 2.40912894b31cf7a19e58.jpg",
     "static/media/Doc pic 1.jpg": "/dentalOfficeProject/static/media/Doc pic 1.84f3217987cf6c3df181.jpg",
     "static/media/Vazir.woff": "/dentalOfficeProject/static/media/Vazir.a30b9598c58099f1584c.woff",
     "static/media/Shabnam.woff": "/dentalOfficeProject/static/media/Shabnam.3071005dd6251330d2db.woff",
+    "static/media/ipadPro.png": "/dentalOfficeProject/static/media/ipadPro.14d10fd00d38d1791bff.png",
     "static/media/logo512.png": "/dentalOfficeProject/static/media/logo512.0f0714b8396181c728bb.png",
     "static/media/slick.svg": "/dentalOfficeProject/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/dentalOfficeProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -37,11 +41,11 @@
     "static/media/slick.woff": "/dentalOfficeProject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/dentalOfficeProject/index.html",
     "static/media/telegram_icon.svg": "/dentalOfficeProject/static/media/telegram_icon.2d32bfd727fab82456b0ecdfc9234c08.svg",
-    "main.5a19b838.css.map": "/dentalOfficeProject/static/css/main.5a19b838.css.map",
-    "main.5bb7b1ee.js.map": "/dentalOfficeProject/static/js/main.5bb7b1ee.js.map"
+    "main.c6471714.css.map": "/dentalOfficeProject/static/css/main.c6471714.css.map",
+    "main.945bf9d2.js.map": "/dentalOfficeProject/static/js/main.945bf9d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a19b838.css",
-    "static/js/main.5bb7b1ee.js"
+    "static/css/main.c6471714.css",
+    "static/js/main.945bf9d2.js"
   ]
 }
