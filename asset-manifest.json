@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dentalOfficeProject/static/css/main.c6471714.css",
-    "main.js": "/dentalOfficeProject/static/js/main.945bf9d2.js",
-    "static/media/Screenshot 2023-05-28 171028.png": "/dentalOfficeProject/static/media/Screenshot 2023-05-28 171028.ba1f39292a1f2e517711.png",
+    "main.css": "/dentalOfficeProject/static/css/main.cb38d8c4.css",
+    "main.js": "/dentalOfficeProject/static/js/main.4e1dcee3.js",
+    "static/media/Screenshot 2023-05-28 171028.png": "/dentalOfficeProject/static/media/Screenshot 2023-05-28 171028.73d7895237781074c24b.png",
     "static/media/clinic pic 5.jpeg": "/dentalOfficeProject/static/media/clinic pic 5.3177519ff272836bfb5a.jpeg",
     "static/media/8.jpg": "/dentalOfficeProject/static/media/8.34ed0b1ec885163537e5.jpg",
     "static/media/certificate 8.jpg": "/dentalOfficeProject/static/media/certificate 8.e4b0b60831fc72177365.jpg",
@@ -32,6 +32,7 @@
     "static/media/Shabnam.woff": "/dentalOfficeProject/static/media/Shabnam.3071005dd6251330d2db.woff",
     "static/media/ipadPro.png": "/dentalOfficeProject/static/media/ipadPro.14d10fd00d38d1791bff.png",
     "static/media/logo512.png": "/dentalOfficeProject/static/media/logo512.0f0714b8396181c728bb.png",
+    "static/media/Instagram-Wordmark-Logo.wine.svg": "/dentalOfficeProject/static/media/Instagram-Wordmark-Logo.wine.1497cd017675d965778dc8ce12394e05.svg",
     "static/media/slick.svg": "/dentalOfficeProject/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/dentalOfficeProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/waze_icon.svg": "/dentalOfficeProject/static/media/waze_icon.571e2648fbf7df7216741c0112768e79.svg",
@@ -41,11 +42,11 @@
     "static/media/slick.woff": "/dentalOfficeProject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/dentalOfficeProject/index.html",
     "static/media/telegram_icon.svg": "/dentalOfficeProject/static/media/telegram_icon.2d32bfd727fab82456b0ecdfc9234c08.svg",
-    "main.c6471714.css.map": "/dentalOfficeProject/static/css/main.c6471714.css.map",
-    "main.945bf9d2.js.map": "/dentalOfficeProject/static/js/main.945bf9d2.js.map"
+    "main.cb38d8c4.css.map": "/dentalOfficeProject/static/css/main.cb38d8c4.css.map",
+    "main.4e1dcee3.js.map": "/dentalOfficeProject/static/js/main.4e1dcee3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6471714.css",
-    "static/js/main.945bf9d2.js"
+    "static/css/main.cb38d8c4.css",
+    "static/js/main.4e1dcee3.js"
   ]
 }
