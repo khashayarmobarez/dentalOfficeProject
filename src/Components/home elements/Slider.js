@@ -18,7 +18,6 @@ const slider = () => {
                 <h1>دكتر بابك زندى</h1>
                 <br/>
                 <h1>درمان های تخصصی ریشه دندان</h1>
-                <h1>خدمات تخصصی ایمپلنت</h1>
             </div>
 
             < Carousel showThumbs={false} 

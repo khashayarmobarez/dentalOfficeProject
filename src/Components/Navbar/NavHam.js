@@ -11,7 +11,7 @@ const Div = styled.div`
     z-index:22;
     flex-direction:column;
     align-items:center;
-    position:fixed;
+    position:absolute;
     top:20px;
     right:30px;
     width:1.8rem;

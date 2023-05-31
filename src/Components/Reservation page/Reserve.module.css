@@ -1,0 +1,102 @@
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -28rem 0 0 0;
+    font-family: shabnam;
+}
+
+.writingsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+    color: #fff;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background-color: #59B4C9;
+    border-radius:10px;
+    padding: 1rem;
+}
+
+.nameNumber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameNumber div {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h3 {
+    font-family: vazir;
+    font-size: 17px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.nameNumber input {
+        width: 14rem;
+        height: 2rem;
+        border-radius: 10px;
+        padding: 3px 6px;
+          margin-top: 5px;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1.5rem;
+  }
+  
+  .input {
+    width: 14rem;
+    height: 20rem;
+    border-radius: 10px;
+    padding: 3px 6px;
+    margin-top: 5px;
+    text-align: right;
+    vertical-align: text-top;
+    resize: none;
+    line-height: 1.5;
+  }
+  
+  .input::placeholder {
+    display: flex;
+    vertical-align: text-top;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+
+@media only screen and (min-width: 950px) {
+
+    .Container {
+        margin: 10rem 0 0 0;
+    }
+
+    .Form {
+        padding: 2rem;
+        width: 40%;
+    }
+
+    .nameNumber {
+        flex-direction: row;
+    }
+}

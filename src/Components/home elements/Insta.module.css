@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.iphone{
+    width: 26rem;
+    z-index: 5;
+}
+
+.iphoneInsta {
+    z-index: 0;
+    width: 11.4rem;
+    margin-top: -25.3rem;
+    border-radius: 5%;
+}
+
+.ipad {
+    display: none;
+}
+
+.ipadInsta {
+    display: none;
+}
+
+.instagramLogo {
+    width: 10rem;
+}
+
+.container a{
+    z-index: 10;
+}
+
+.locationContainer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 32rem;
+}
+
+.locationContainer iframe {
+    width:380px;
+    border-radius: 10px;
+}
+
+.locationContainer a {
+    font-family: shabnam;
+    display: inline-block;
+    font-size: 18px;
+  padding: 0.5rem 1rem;
+  background-color: #00B8DF;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 950px) {
+
+    .iphone{
+        display: none;
+    }
+    
+    .iphoneInsta {
+        display: none;
+    }
+    
+    .ipad {
+        display: flex;
+        width: 30rem;
+        transform:rotate(90deg);
+    }
+    
+    .ipadInsta {
+        display: flex;
+        width: 35rem;
+        margin-top: -32.5rem;
+        height: 24.5rem;
+    }
+
+    .instagramLogo {
+        width: 15rem;
+    }
+
+    .locationContainer iframe {
+        width:600px;
+    }
+}

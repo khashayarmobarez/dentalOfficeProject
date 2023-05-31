@@ -3,32 +3,31 @@
     flex-direction: column-reverse;
     width: 85%;
     height: 47rem;
-    margin-top: -4rem;
+    margin-top: -6rem;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
 
 .picsContainer {
-    width: 400px;
-    height: 420px;
+    width: 370px;
+    height: 400px;
     box-sizing: border-box;
-    margin-right: 2rem;
 }
 
 .picsContainer img {
-    width: 400px;
-    height: 400px;
-    margin-top: -340px;
-    margin-left: 40px; 
+    width: 340px;
+    height: 340px;
+    margin-top: -320px;
+    margin-left: 28px; 
     border-radius: 5%;
-    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
  }
 
 .backPic {
     border-radius: 5%;
-    width: 380px;
-    height: 380px;
+    width: 340px;
+    height: 340px;
     background-color: #D9D9D9 ;
     box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
@@ -90,7 +89,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 @media only screen and (min-width: 570px) {
     .Container {
-            margin-top: 3rem;
+            margin-top: -4vh;
             width: 100%;
     }
 
@@ -101,16 +100,9 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 }
 
 
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 950px) {
     .Container {
-            margin-top: 7rem;
-    }
-}
-
-
-@media only screen and (min-width: 850px) {
-    .Container {
-            margin-top: 10rem;
+            margin-top: 7vh;
     }
 }
 

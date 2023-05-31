@@ -3,6 +3,7 @@ import styles from './App.module.css'
 import NavHam from './Components/Navbar/NavHam';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
+import Reserve from './Components/Reservation page/Reserve'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
         <Routes>
           <Route path="/Home" element={<Home />} />
+          <Route path='/Reserve' element={<Reserve /> } />
           <Route path='/*' element={ <Navigate  to='/Home' /> } />
         </Routes>
 

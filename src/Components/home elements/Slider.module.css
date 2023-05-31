@@ -1,6 +1,6 @@
 .sliderContainer {
     position: absolute;
-    margin-top: -68vh;
+    margin-top: -76vh;
 }
 
 .imageContainer {
@@ -8,7 +8,7 @@
 }
 
 .imageContainer img {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     filter: brightness(70%);
     height: 100%;
 }
@@ -26,7 +26,7 @@
 }
 
 .OnPicWriting h1 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Noto Kufi Arabic', sans-serif;
     font-weight: 300;
     color: white;
@@ -34,10 +34,6 @@
 
 .OnPicWriting p1 {
     font-family: 'Noto Kufi Arabic', sans-serif;
-}
-
-@media only screen and (min-width: 950px) {
-        
 }
 
 
