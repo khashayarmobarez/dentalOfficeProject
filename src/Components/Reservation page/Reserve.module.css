@@ -1,11 +1,16 @@
 
 .Container {
+    height: 60rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -28rem 0 0 0;
+    margin: -34rem 0 -5rem 0;
     font-family: shabnam;
+    background-image: url('../../media/pictures/AIgeneratedPics/dental1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .writingsContainer {
@@ -25,7 +30,7 @@ h1 {
     width: 70%;
     background-color: #59B4C9;
     border-radius:10px;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .nameNumber {
@@ -84,19 +89,74 @@ h3 {
     padding-right: 10px;
   }
 
+  .picUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .picUpload h3 {
+    margin-bottom: 10px;
+  }
+  
+  .fileInput {
+    display: none; /* Hide the default file input appearance */
+  }
+  
+  .customFileInput {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bb7c7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .customFileInput:hover {
+    background-color: #4397A3;
+  }
+  
+  .customFileInput:focus {
+    outline: none;
+  }
+  
+  .customFileInput::file-selector-button {
+    display: none;
+  }
+
+  .confirm {
+    margin-top: 2rem;
+  }
+
+  .confirm button{
+    padding:1px;
+    font-family: vazir;
+    font-size: 14px;
+    font-weight:100;
+    width: 4rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: none;
+  }
+
 
 @media only screen and (min-width: 950px) {
 
     .Container {
-        margin: 10rem 0 0 0;
+        height: 55rem;
+        margin: 0 0 -5rem 0;
     }
 
     .Form {
         padding: 2rem;
-        width: 40%;
+        width: 45%;
     }
 
     .nameNumber {
         flex-direction: row;
+        width: 85%;
     }
 }

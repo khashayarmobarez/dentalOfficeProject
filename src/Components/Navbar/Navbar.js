@@ -62,27 +62,27 @@ const Navbar = ({open}) => {
         <Container>
              <Ul open={open} >
                
-                <li><Link to='' className={styles.naVbutton}>کلینیک و محیط درمانی</Link></li>
+                <li><Link to='' className={styles.naVbutton} onClick={open}>کلینیک و محیط درمانی</Link></li>
                
-                <li><Link to='' className={styles.naVbutton}>آموزش</Link></li>
+                <li><Link to='' className={styles.naVbutton} onClick={open}>آموزش</Link></li>
                
-                <li><Link to='' className={styles.naVbutton}>متخصصین همکار</Link></li>
+                <li><Link to='' className={styles.naVbutton} onClick={open}>متخصصین همکار</Link></li>
                
-                <li><Link to='/Home' className={styles.naVbutton}>صفحه اصلی</Link></li>
+                <li><Link to='/Home' className={styles.naVbutton} onClick={open}>صفحه اصلی</Link></li>
                
-                <li><Link to='/Reserve' className={`${styles.naVbutton} ${styles.reserveButton}`}>نوبت دهی آنلاین</Link></li>
+                <li><Link to='/Reserve' className={`${styles.naVbutton} ${styles.reserveButton}`} onClick={open}>نوبت دهی آنلاین</Link></li>
 
                 <li className={styles.galleryButton}>
                     <Link to='' className={styles.naVbutton} onClick={toggleDropdown}>گالری</Link>
                        {isDropdownOpen && (
                         <ul className={styles.dropdownMenu}>
                           <li>
-                            <NavLink to="/gallery-item-1" activeClassName={styles.active}>
+                            <NavLink to="/gallery-item-1" activeClassName={styles.active} onClick={open}>
                               گالری آیتم ۱
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/gallery-item-2" activeClassName={styles.active}>
+                            <NavLink to="/gallery-item-2" activeClassName={styles.active} onClick={open}>
                               گالری آیتم ۲
                             </NavLink>
                           </li>
