@@ -3,10 +3,22 @@
     flex-direction: column-reverse;
     width: 85%;
     height: 47rem;
-    margin-top: -6rem;
+    margin-top: -10%;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+}
+
+@media only screen and (min-height: 780px) {
+    .Container {
+        margin-top: -38%;
+    }
+}
+
+@media only screen and (min-height: 950px) {
+    .Container {
+        margin-top: -55%;
+    }
 }
 
 .picsContainer {
@@ -66,6 +78,8 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 .callData {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 15rem;
     justify-content: space-between;
     margin-top: 0.5rem;
@@ -89,7 +103,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 @media only screen and (min-width: 570px) {
     .Container {
-            margin-top: -4vh;
+            /* margin-top: -4vh; */
             width: 100%;
     }
 

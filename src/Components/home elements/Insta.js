@@ -17,10 +17,10 @@ const Insta = () => {
         <div className={styles.container}>
 
           <div className={styles.instaContainer}>
-              <a href="https://www.instagram.com/dr.b.zandi/" target='_blank' rel='noreferrer'>
+              <a href="https://www.instagram.com/dr.zandi.endo/" target='_blank' rel='noreferrer'>
                 <img src={iphone} className={styles.iphone} alt="instagram" />
               </a>
-              <a href="https://www.instagram.com/dr.b.zandi/" target='_blank' rel='noreferrer'>
+              <a href="https://www.instagram.com/dr.zandi.endo/" target='_blank' rel='noreferrer'>
                 <img src={ipad} className={styles.ipad} alt="instagram" />
               </a>
                 <img src={iphPic} className={styles.iphoneInsta} alt="instagram" />
