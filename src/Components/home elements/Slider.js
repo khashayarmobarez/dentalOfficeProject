@@ -26,17 +26,19 @@ const slider = () => {
             showArrows={true}
             infiniteLoop={true}>
 
-                <div className={styles.imageContainer} >
-                    <img src={pic1} alt='pic1' />
+
+                <div className={styles.imageContainer}>
+                    <img src={pic2} alt='pic2'/>
                 </div>
 
                 <div className={styles.imageContainer}>
                     <img src={pic3} alt='pic3'/>
                 </div>
-
-                <div className={styles.imageContainer}>
-                    <img src={pic2} alt='pic2'/>
+                
+                <div className={styles.imageContainer} >
+                    <img src={pic1} alt='pic1' />
                 </div>
+
 
             </ Carousel >
         </div>

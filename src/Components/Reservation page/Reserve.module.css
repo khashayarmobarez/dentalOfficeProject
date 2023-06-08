@@ -1,12 +1,12 @@
 
 .Container {
-    height: 60rem;
+    height: 65rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -34rem 0 -5rem 0;
+    margin: -77vh 0 -5rem 0;
     font-family: shabnam;
     background-image: url('../../media/pictures/AIgeneratedPics/dental1.jpg');
     background-repeat: no-repeat;
@@ -19,14 +19,18 @@
 }
 
 h1 {
+    font-size: 23px;
     font-weight: 400;
     color: #fff;
 }
+
+h1[lang="fa"] { direction: rtl; text-align: justify; }
 
 .Form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 70%;
     background-color: #59B4C9;
     border-radius:10px;
@@ -49,7 +53,7 @@ h1 {
 
 h3 {
     font-family: vazir;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 200;
     color: #fff;
 }
@@ -107,7 +111,7 @@ h3 {
   .customFileInput {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #bb7c7c;
+    background-color: #67838b;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -156,7 +160,46 @@ h3 {
     }
 
     .nameNumber {
-        flex-direction: row;
-        width: 85%;
+        width: 75%;
+        padding: 0;
     }
-}
+
+    .input {
+      padding: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1050px) {
+
+    .Form {
+      width: 40rem;
+      margin-top: -25vh;
+    }
+
+      h1{
+        font-size: 26px;
+      }
+
+      .nameNumber {
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+      }
+
+      .nameNumber div {
+        margin: 1.2rem 0.5rem;
+      }
+
+      .nameNumber div input {
+        width: 13rem;
+      }
+
+      .description {
+        margin-top: -0.5rem;
+      }
+
+      .description input {
+        width: 28.5rem;
+        height: 10rem;
+      }
+  }

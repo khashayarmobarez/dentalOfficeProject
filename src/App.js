@@ -4,6 +4,7 @@ import NavHam from './Components/Navbar/NavHam';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Reserve from './Components/Reservation page/Reserve'
+import BuildingLoad from './Components/shared/BuildingLoad';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/Home" element={<Home />} />
           <Route path='/Reserve' element={<Reserve /> } />
+          <Route path='/soon' element={<BuildingLoad />} />
           <Route path='/*' element={ <Navigate  to='/Home' /> } />
         </Routes>
 

@@ -25,7 +25,7 @@ const ClinicPics = () => {
                    <p>021-22002177</p>
                 </div>
                 <div className={styles.DoctorDirectCall}>
-                   <a href='/https://www.instagram.com/direct/t/17842319129086598'>
+                   <a href='https://ig.me/m/dr.zandi.endo'>
                     <p lang='fa'>ارتباط مستقیم با دکتر</p>
                     </a>
                 </div>

@@ -53,7 +53,7 @@ const Reserve = () => {
             <div className={styles.Form}>
 
             <div className={styles.writingsContainer}>
-                <h1>دریافت نوبت دندانپزشکی</h1>
+                <h1 lang='fa'>دریافت نوبت دندانپزشکی</h1>
             </div>
 
                 <div className={styles.nameNumber}>

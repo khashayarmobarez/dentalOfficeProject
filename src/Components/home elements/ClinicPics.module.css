@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+/* responsiveness by height  */
 @media only screen and (min-height: 780px) {
     .Container {
         margin-top: -38%;

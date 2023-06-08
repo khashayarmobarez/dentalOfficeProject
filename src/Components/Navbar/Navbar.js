@@ -62,11 +62,11 @@ const Navbar = ({open}) => {
         <Container>
              <Ul open={open} >
                
-                <li><Link to='' className={styles.naVbutton} onClick={open}>کلینیک و محیط درمانی</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>کلینیک و محیط درمانی</Link></li>
                
-                <li><Link to='' className={styles.naVbutton} onClick={open}>آموزش</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>آموزش</Link></li>
                
-                <li><Link to='' className={styles.naVbutton} onClick={open}>متخصصین همکار</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>متخصصین همکار</Link></li>
                
                 <li><Link to='/Home' className={styles.naVbutton} onClick={open}>صفحه اصلی</Link></li>
                
@@ -77,13 +77,13 @@ const Navbar = ({open}) => {
                        {isDropdownOpen && (
                         <ul className={styles.dropdownMenu}>
                           <li>
-                            <NavLink to="/gallery-item-1" activeClassName={styles.active} onClick={open}>
-                              گالری آیتم ۱
+                            <NavLink to="/soon" activeClassName={styles.active} onClick={open}>
+                              محیط درمانی
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/gallery-item-2" activeClassName={styles.active} onClick={open}>
-                              گالری آیتم ۲
+                            <NavLink to="/soon" activeClassName={styles.active} onClick={open}>
+                              کنفرانس ها
                             </NavLink>
                           </li>
                           {/* Add more dropdown menu items as needed */}
@@ -91,7 +91,7 @@ const Navbar = ({open}) => {
                       )}
                 </li>
                
-                <li><Link to='' className={styles.naVbutton}>مقالات</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton}>مقالات</Link></li>
               </Ul>
         </Container>    
     );
