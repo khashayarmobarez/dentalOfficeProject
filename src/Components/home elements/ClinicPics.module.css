@@ -88,6 +88,14 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 .callData p{
     font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.callData a{
+    margin: 3px;
+    font-family: shabnam;
+    color: #00B8DF;
+    font-weight: 600;
 }
 
 .DoctorDirectCall {

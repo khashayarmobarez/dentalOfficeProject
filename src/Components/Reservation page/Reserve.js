@@ -52,6 +52,14 @@ const Reserve = () => {
 
             <div className={styles.Form}>
 
+            {/* soon to work card */}
+            <div className={styles.card}>
+                <h1>این بخش فعلا غیر فعال می باشد.<br/>برای رزرو وقت با شماره ی زیر تماس بگیرید:</h1>
+                <a href='tel:02122647394'>021-22647394</a>
+                <a href='tel:02122647395'>021-22647395</a>
+                <a href='tel:02122002177'>021-22002177</a>
+            </div>
+
             <div className={styles.writingsContainer}>
                 <h1 lang='fa'>دریافت نوبت دندانپزشکی</h1>
             </div>
@@ -92,7 +100,7 @@ const Reserve = () => {
              </div>
 
              <div className={styles.confirm}>
-                <button type='submit' onClick={handleSubmit}>
+                <button className={styles.button} type='submit' onClick={handleSubmit}>
                     ثبت
                 </button>
              </div>

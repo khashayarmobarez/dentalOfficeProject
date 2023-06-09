@@ -20,9 +20,9 @@ const ClinicPics = () => {
                 </p>
                 <div className={styles.callData}>
                    <p lang='fa'>تماس برای نوبت دهی :</p>
-                   <p>021-22647394</p>
-                   <p>021-22647395</p>
-                   <p>021-22002177</p>
+                    <a href='tel:02122647394'>021-22647394</a>
+                    <a href='tel:02122647395'>021-22647395</a>
+                    <a href='tel:02122002177'>021-22002177</a>
                 </div>
                 <div className={styles.DoctorDirectCall}>
                    <a href='https://ig.me/m/dr.zandi.endo'>

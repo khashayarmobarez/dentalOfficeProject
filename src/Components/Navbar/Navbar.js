@@ -91,7 +91,7 @@ const Navbar = ({open}) => {
                       )}
                 </li>
                
-                <li><Link to='/soon' className={styles.naVbutton}>مقالات</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>مقالات</Link></li>
               </Ul>
         </Container>    
     );
