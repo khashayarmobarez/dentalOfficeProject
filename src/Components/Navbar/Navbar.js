@@ -49,7 +49,7 @@ const Ul = styled.ul`
 
 
 
-const Navbar = ({open}) => {
+const Navbar = (props) => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -60,29 +60,29 @@ const Navbar = ({open}) => {
 
     return (    
         <Container>
-             <Ul open={open} >
+             <Ul open={props.open} >
                
-                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>کلینیک و محیط درمانی</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>کلینیک و محیط درمانی</Link></li>
                
-                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>آموزش</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>آموزش</Link></li>
                
-                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>متخصصین همکار</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>متخصصین همکار</Link></li>
                
-                <li><Link to='/Home' className={styles.naVbutton} onClick={open}>صفحه اصلی</Link></li>
+                <li><Link to='/Home' className={styles.naVbutton} onClick={props.onClick}>صفحه اصلی</Link></li>
                
-                <li><Link to='/Reserve' className={`${styles.naVbutton} ${styles.reserveButton}`} onClick={open}>نوبت دهی آنلاین</Link></li>
+                <li><Link to='/Reserve' className={`${styles.naVbutton} ${styles.reserveButton}`} onClick={props.onClick}>نوبت دهی آنلاین</Link></li>
 
                 <li className={styles.galleryButton}>
                     <Link to='' className={styles.naVbutton} onClick={toggleDropdown}>گالری</Link>
                        {isDropdownOpen && (
                         <ul className={styles.dropdownMenu}>
                           <li>
-                            <NavLink to="/soon" activeClassName={styles.active} onClick={open}>
+                            <NavLink to="/soon" activeClassName={styles.active} onClick={props.onClick}>
                               محیط درمانی
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/soon" activeClassName={styles.active} onClick={open}>
+                            <NavLink to="/soon" activeClassName={styles.active} onClick={props.onClick}>
                               کنفرانس ها
                             </NavLink>
                           </li>
@@ -91,7 +91,7 @@ const Navbar = ({open}) => {
                       )}
                 </li>
                
-                <li><Link to='/soon' className={styles.naVbutton} onClick={open}>مقالات</Link></li>
+                <li><Link to='' className={styles.naVbutton} onClick={props.onClick}>مقالات</Link></li>
               </Ul>
         </Container>    
     );

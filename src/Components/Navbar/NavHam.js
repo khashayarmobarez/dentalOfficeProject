@@ -74,7 +74,7 @@ class NavHam extends Component {
                <div></div> 
             </Div>
 
-            <Navbar open={this.state.open} />
+            <Navbar open={this.state.open} onClick={this.clickHandler}/>
 
         </div>    
         );
