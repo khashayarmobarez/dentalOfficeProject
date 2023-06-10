@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column-reverse;
     width: 85%;
-    height: 47rem;
+    height: 44rem;
     margin-top: -10%;
     justify-content: space-between;
     align-items: center;
@@ -10,37 +10,49 @@
 }
 
 /* responsiveness by height  */
+@media only screen and (min-height: 670px) {
+    .Container {
+        margin-top: -40%;
+    }
+}
+
 @media only screen and (min-height: 780px) {
     .Container {
-        margin-top: -38%;
+        margin-top: -53%;
     }
 }
 
 @media only screen and (min-height: 950px) {
     .Container {
-        margin-top: -55%;
+        margin-top: -46%;
     }
 }
-
+    
 .picsContainer {
-    width: 370px;
+    width: 95%;
     height: 400px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .picsContainer img {
-    width: 340px;
-    height: 340px;
-    margin-top: -320px;
-    margin-left: 28px; 
+    width: 270px;
+    height: 270px;
+    margin-top: -245px;
+    margin-left: 2.4rem; 
     border-radius: 5%;
     box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.3);
  }
 
 .backPic {
     border-radius: 5%;
-    width: 340px;
-    height: 340px;
+    width: 270px;
+    height: 270px;
+    margin-right: 1rem;
     background-color: #D9D9D9 ;
     box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
@@ -50,7 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 95%;
     height: 190px;
 }
 
@@ -59,7 +71,8 @@ h1[lang="fa"] { direction: rtl; text-align: justify; }
 p[lang="fa"] { direction: rtl; text-align: justify; }
 
 .textsContainer h1 {
-    font-size: 35px;
+    padding: 0 2rem;
+    font-size: 20px;
     font-family: shabnam;
     font-weight: 300;
     display: flex;
@@ -70,6 +83,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 .textsContainer p {
     font-size: 15px;
+    padding: 0 2rem;
     font-family: shabnam;
     font-weight: 300;
     color: #14272C;
@@ -104,8 +118,15 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 }
 
 .DoctorDirectCall p {
+    padding: 0 0;
     font-weight: 600;
+    font-size: 18px;
     color:#00B8DF;
+}
+
+/* max width  */
+@media only screen and (min-width: 280px) {
+
 }
 
 
@@ -118,14 +139,31 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
     .textsContainer {
         box-sizing: border-box;
+        margin-top: 1.5rem;
     }
 
 }
 
 
 @media only screen and (min-width: 950px) {
+
     .Container {
             margin-top: 7vh;
+    }
+
+    .textsContainer h1 {
+        font-size: 34px;
+    }
+
+    .picsContainer img {
+        width: 340px;
+        height: 340px;
+        margin-top: -315px;
+    }
+
+    .backPic {
+        width: 340px;
+        height: 340px;
     }
 }
 
@@ -136,10 +174,6 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
         width: 750px;
         height: 430px;
         margin-right: 2rem;
-    }
-
-    .textsContainer h1 {
-        font-size: 48px;
     }
 
     .textsContainer p {

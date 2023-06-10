@@ -15,6 +15,7 @@ const Videos = () => {
             <div className={styles.VideosContainer} >
                 {
                 videos.map(video => <Video 
+                                        className={styles.video}
                                         key={video.id}
                                         videoData={video}
                                         />)

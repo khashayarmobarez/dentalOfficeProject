@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://fakestoreapi.com/products?limit=8';    
+const BASE_URL = 'https://fakestoreapi.com/products?limit=4';    
 
 const getVideos = async () => {
     const response = await axios.get(`${BASE_URL}/products`)

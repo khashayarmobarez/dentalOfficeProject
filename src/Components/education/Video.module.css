@@ -1,8 +1,22 @@
+
+.card__content {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card__content img {
+  width: 90%;
+  height: 12rem;
+  border-radius: 5px;
+}
+
+/* cards  */
 .card {
-    width: 190px;
-    height: 254px;
-    margin: 0 auto;
-    background-color: #555;
+    width: 250px;
+    height: 324px;
+    margin: 2rem 1rem;
+    background-color: #d8d5d5;
     border-radius: 8px;
     z-index: 1;
   }

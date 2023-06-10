@@ -1,0 +1,26 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -26rem;
+    width: 100%;
+}
+
+.VideosContainer {
+    width: 95%;
+    /* background-color:lightblue ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen and (min-width: 950px) {
+    .Container {
+        margin-top: 4rem;
+    }
+}
+

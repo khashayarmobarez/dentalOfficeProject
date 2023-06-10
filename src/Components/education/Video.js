@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from './Video.module.css'
 
-const Video = () => {
+const Video = (props) => {
+
+    const {image} = props.videoData;
+
     return (
         <div className={styles.card}>
             <div className={styles.tools}>
@@ -15,9 +18,8 @@ const Video = () => {
                 <span className={`${styles.yellow} ${styles.box}`}></span>
                 </div>
             </div>
-
             <div className={styles.card__content}>
-                hey
+                <img src={image} alt='images'/>
             </div>
         </div>
     );
