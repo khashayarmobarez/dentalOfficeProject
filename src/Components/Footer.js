@@ -25,7 +25,7 @@ const Footer = () => {
             <div className={styles.clinicData}>
                 <p lang="fa">دندانپزشکی دکتر زندی</p>
                 <p lang="fa">تهران - شریعتی - روبروی خیابان کلاهدوز<br/> (دولت) - خیابان امامزاده - پلاک 1 - طبقه دوم</p>
-                <p>email@gmail.com</p>
+                <p>dr.b.zandi@gmail.com</p>
                 <p>021-22002177</p>
                 <p className={styles.developer}>webApp made by <a href='https://www.linkedin.com/in/khashayarmobarez/' target='_blank' rel='noreferrer'>khashayarMB</a></p>
             </div>

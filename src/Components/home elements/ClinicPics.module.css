@@ -3,7 +3,7 @@
     flex-direction: column-reverse;
     width: 85%;
     height: 44rem;
-    margin-top: -10%;
+    margin-top: -8%;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
@@ -18,13 +18,13 @@
 
 @media only screen and (min-height: 780px) {
     .Container {
-        margin-top: -53%;
+        margin-top: -58%;
     }
 }
 
 @media only screen and (min-height: 900px) {
     .Container {
-        margin-top: -58%;
+        margin-top: -60%;
     }
 }
     
@@ -97,6 +97,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 }
 
 .callData {
+    padding-top: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +119,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 }
 
 .DoctorDirectCall {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     border-bottom: 3px solid #00B8DF;
 }
 
