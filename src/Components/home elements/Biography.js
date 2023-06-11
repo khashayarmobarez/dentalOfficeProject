@@ -4,7 +4,7 @@ import styles from './Biography.module.css'
 import DoctorPicture from '../../media/pictures/Doctor PIctures/Doc pic 1.jpg'
 
 const Biography = () => {
-    return (
+    return ( 
         <div className={styles.Container}>
 
             <div className={styles.DoctorPics}>

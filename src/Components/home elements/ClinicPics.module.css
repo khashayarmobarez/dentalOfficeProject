@@ -10,23 +10,7 @@
 }
 
 /* responsiveness by height  */
-@media only screen and (min-height: 670px) {
-    .Container {
-        margin-top: -40%;
-    }
-}
 
-@media only screen and (min-height: 780px) {
-    .Container {
-        margin-top: -53%;
-    }
-}
-
-@media only screen and (min-height: 950px) {
-    .Container {
-        margin-top: -46%;
-    }
-}
     
 .picsContainer {
     width: 95%;
@@ -64,9 +48,10 @@
     align-items: center;
     width: 95%;
     height: 190px;
+    text-align: center;
 }
 
-h1[lang="fa"] { direction: rtl; text-align: justify; }
+h1[lang="fa"] { direction: rtl; text-align: center; }
 
 p[lang="fa"] { direction: rtl; text-align: justify; }
 
@@ -124,12 +109,19 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
     color:#00B8DF;
 }
 
-/* max width  */
-@media only screen and (min-width: 280px) {
 
+
+/* @media only screen and (min-width: 350px) {
+    .Container {
+        margin-top: -55%;
+    }
 }
 
-
+@media only screen and (min-width: 400px) {
+    .Container {
+        margin-top: -55%;
+    }
+} */
 
 @media only screen and (min-width: 570px) {
     .Container {

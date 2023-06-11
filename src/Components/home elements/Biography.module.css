@@ -4,7 +4,7 @@
     background-color: #0B4E5f;
     width: 100%;
     height: 85rem;
-    margin-top: 6rem;
+    margin-top: -32vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,6 +51,11 @@ h1[lang="fa"] { direction: rtl; text-align: justify; }
     width: auto;
     border-radius: 5%;
 }
+
+@media only screen and (min-width: 380px) {
+
+}
+
 
 @media only screen and (min-width: 650px) { 
 

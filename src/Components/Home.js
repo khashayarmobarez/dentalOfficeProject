@@ -13,8 +13,8 @@ const Home = () => {
     return (
         <div className={styles.container}>
            <SliderLoader />
-           <ClinicPics />
            <Biography />
+           <ClinicPics />
            <Certifications/>
            <Insta />
         </div>
