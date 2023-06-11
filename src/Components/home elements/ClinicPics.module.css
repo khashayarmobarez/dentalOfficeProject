@@ -22,9 +22,9 @@
     }
 }
 
-@media only screen and (min-height: 950px) {
+@media only screen and (min-height: 900px) {
     .Container {
-        margin-top: -46%;
+        margin-top: -58%;
     }
 }
     
@@ -72,13 +72,18 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 .textsContainer h1 {
     padding: 0 2rem;
-    font-size: 20px;
+    font-size: 22px;
     font-family: shabnam;
     font-weight: 300;
     display: flex;
     text-align: center;
     margin-bottom: 1rem;
     color: #0B4E5F;
+}
+
+.h1 {
+    display: flex;
+    text-align: center;
 }
 
 .textsContainer p {
@@ -128,6 +133,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 @media only screen and (min-width: 280px) {
 
 }
+
 
 
 

@@ -49,7 +49,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 32rem;
+    height: 28rem;
 }
 
 .locationContainer iframe {
@@ -60,7 +60,8 @@
 .locationContainer a {
     font-family: shabnam;
     display: inline-block;
-    font-size: 18px;
+    font-size: 15px;
+    margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: #00B8DF;
   color: #fff;
@@ -76,6 +77,10 @@
 
 @media only screen and (min-width: 950px) {
 
+    .container {
+        margin: 5rem 3% 0 3%;
+    }
+
     .iphone{
         display: none;
     }
@@ -86,23 +91,29 @@
     
     .ipad {
         display: flex;
-        width: 30rem;
+        width: 28rem;
         transform:rotate(90deg);
     }
     
     .ipadInsta {
         display: flex;
-        width: 35rem;
-        margin-top: -32.5rem;
-        height: 24.5rem;
+        width: 33rem;
+        margin-left: 2rem;
+        margin-top: -30.5rem;
+        height: 23.5rem;
     }
 
     .instagramLogo {
-        width: 15rem;
+        width: 13rem;
+    }
+
+    .locationContainer {
+
     }
 
     .locationContainer iframe {
-        width:600px;
+        width:500px;
+        height: 400px;
     }
 }
 
@@ -111,7 +122,7 @@
 
     .container {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0 2rem;
     }
 
