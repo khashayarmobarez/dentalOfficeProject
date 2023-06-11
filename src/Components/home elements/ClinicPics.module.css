@@ -3,7 +3,7 @@
     flex-direction: column-reverse;
     width: 85%;
     height: 44rem;
-    margin-top: -8%;
+    margin-top: -10%;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
@@ -18,13 +18,13 @@
 
 @media only screen and (min-height: 780px) {
     .Container {
-        margin-top: -58%;
+        margin-top: -53%;
     }
 }
 
 @media only screen and (min-height: 900px) {
     .Container {
-        margin-top: -60%;
+        margin-top: -58%;
     }
 }
     
