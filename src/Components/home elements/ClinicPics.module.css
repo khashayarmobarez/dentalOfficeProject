@@ -3,13 +3,31 @@
     flex-direction: column-reverse;
     width: 85%;
     height: 44rem;
-    margin-top: -10%;
+    margin-top: 14rem;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
 
 /* responsiveness by height  */
+@media only screen and (min-height: 380px) {
+    .Container {
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (min-height: 470px) {
+    .Container {
+        margin-top: 6rem;
+    }
+}
+
+@media only screen and (min-height: 540px) {
+    .Container {
+        margin-top: 4   rem;
+    }
+}
+
 @media only screen and (min-height: 670px) {
     .Container {
         margin-top: -40%;
@@ -72,7 +90,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
 
 .textsContainer h1 {
     padding: 0 2rem;
-    font-size: 22px;
+    font-size: 20px;
     font-family: shabnam;
     font-weight: 300;
     display: flex;
@@ -130,11 +148,90 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
     color:#00B8DF;
 }
 
-/* max width  */
-@media only screen and (min-width: 280px) {
-
+/*responsiveness for diffrent width and height for 320px width*/
+@media only screen and (min-width: 320px) {
+    .Container {
+        margin-top: 8rem;
+    }
 }
 
+@media only screen and (min-width: 320px) and (min-height: 480px) {
+        .Container {
+            margin-top: 4.7rem;
+        }
+    }
+
+@media only screen and (min-width: 320px) and (min-height: 540px) {
+        .Container {
+            margin-top: 2.8rem;
+        }
+    }
+@media only screen and (min-width: 320px) and (min-height: 600px) {
+        .Container {
+            margin-top: -3%;
+        }
+    }
+@media only screen and (min-width: 320px) and (min-height: 670px) {
+        .Container {
+            margin-top: -18%;
+        }
+    }
+
+@media only screen and (min-width: 320px) and (min-height: 750px) {
+        .Container {
+            margin-top: -37%;
+        }
+    }
+
+@media only screen and (min-width: 320px) and (min-height: 800px) {
+        .Container {
+            margin-top: -47%;
+        }
+    }
+
+@media only screen and (min-width: 320px) and (min-height: 850px) {
+        .Container {
+            margin-top: -57%;
+        }
+    }
+
+@media only screen and (min-width: 320px) and (min-height: 900px) {
+        .Container {
+            margin-top: -60%;
+        }
+    }
+
+
+/*responsiveness for diffrent width and height for 520px width*/
+@media only screen and (min-width: 520px) {
+    .Container {
+        margin-top: -1rem;
+    }
+}
+
+@media only screen and (min-width: 520px) and (min-height: 700px) {
+    .Container {
+        margin-top: -26.5%;
+    }
+}
+
+@media only screen and (min-width: 520px) and (min-height: 820px) {
+    .Container {
+        margin-top:-43%;
+    }
+}
+
+@media only screen and (min-width: 520px) and (min-height: 920px) {
+    .Container {
+        margin-top:-57%;
+    }
+}
+
+@media only screen and (min-width: 520px) and (min-height: 1000px) {
+    .Container {
+        margin-top:-70%;
+    }
+}
 
 
 
@@ -150,6 +247,14 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
     }
 
 }
+
+@media only screen and (min-width: 760px) {
+    .Container {
+        margin-top:-58%;
+    }
+}
+
+
 
 
 @media only screen and (min-width: 950px) {
