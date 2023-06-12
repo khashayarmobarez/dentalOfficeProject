@@ -173,7 +173,7 @@ p[lang="fa"] { direction: rtl; text-align: justify; }
     }
 @media only screen and (min-width: 320px) and (min-height: 670px) {
         .Container {
-            margin-top: -18%;
+            margin-top: -25%;
         }
     }
 
