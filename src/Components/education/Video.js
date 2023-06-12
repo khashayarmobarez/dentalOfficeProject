@@ -19,7 +19,9 @@ const Video = (props) => {
                 </div>
             </div>
             <div className={styles.card__content}>
-                <img src={image} alt='images'/>
+                <a href=''>
+                 <img src={image} alt='images'/>
+                </a>
             </div>
         </div>
     );
