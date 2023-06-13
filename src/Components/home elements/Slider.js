@@ -49,7 +49,8 @@ const Slider = () => {
             autoPlay={true}
             interval={3000}
             showArrows={true}
-            infiniteLoop={true}>
+            infiniteLoop={true}
+            showStatus={false}>
 
 
                 <div className={styles.imageContainer}>
