@@ -6,6 +6,7 @@ import ClinicPics from './home elements/ClinicPics';
 import Biography from './home elements/Biography';
 import Certifications from './home elements/Certifications';
 import Insta from './home elements/Insta';
+import Posters from './home elements/Posters';
 
 
 
@@ -15,8 +16,10 @@ const Home = () => {
            <SliderLoader />
            <ClinicPics />
            <Biography />
+           {/* <h1 className={styles.h1}>certifications</h1> */}
            <Certifications/>
            <Insta />
+           <Posters />
         </div>
     );
 };

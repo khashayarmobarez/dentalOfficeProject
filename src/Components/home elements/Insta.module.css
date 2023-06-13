@@ -5,6 +5,10 @@
     box-sizing: border-box;
     align-items: center;
     margin-top: 5rem;
+    background-image: url('../../media/pictures/AIgeneratedPics/socialBack1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
 }
 
 .instaContainer {
@@ -98,7 +102,7 @@
     .ipadInsta {
         display: flex;
         width: 33rem;
-        margin-left: 2rem;
+        margin-left: 0.5rem;
         margin-top: -30.5rem;
         height: 23.5rem;
     }

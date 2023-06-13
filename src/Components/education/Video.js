@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Video.module.css'
+// import { Link } from 'react-router-dom';
 
 const Video = (props) => {
 
@@ -19,9 +20,9 @@ const Video = (props) => {
                 </div>
             </div>
             <div className={styles.card__content}>
-                <a href=''>
-                 <img src={image} alt='images'/>
-                </a>
+                {/* <Link to={/products/${productData.id }> */}
+                    <img src={image} alt='images'/>
+                {/* </Link> */}
             </div>
         </div>
     );
