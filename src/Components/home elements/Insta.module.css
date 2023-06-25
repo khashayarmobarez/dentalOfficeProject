@@ -57,7 +57,8 @@
 }
 
 .locationContainer iframe {
-    width:380px;
+    width:280px;
+    height: ;
     border-radius: 10px;
 }
 
@@ -109,10 +110,6 @@
 
     .instagramLogo {
         width: 13rem;
-    }
-
-    .locationContainer {
-
     }
 
     .locationContainer iframe {

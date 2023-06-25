@@ -14,3 +14,9 @@
   src: local("Vazir"),
     url("./media/fonts/Vazir.woff") format("woff");
 }
+
+@font-face {
+  font-family: "anjoman";   /*Can be any text*/
+  src: local("Anjoman"),
+    url("./media/fonts/Anjoman\ Regular.ttf") format("truetype");
+}

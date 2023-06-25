@@ -11,7 +11,7 @@
 
 .imageContainer img {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    filter: brightness(70%);
+    filter: brightness(65%);
     height: 100%;
 }
 
@@ -29,9 +29,10 @@
 
 .OnPicWriting h1 {
     font-size: 24px;
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-weight: 300;
-    color: white;
+    /* font-family: 'Noto Kufi Arabic', sans-serif; */
+    font-family: anjoman;
+    font-weight: 400;
+    color: #f0f0f0;
 }
 
 .OnPicWriting p1 {

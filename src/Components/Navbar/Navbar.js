@@ -64,7 +64,7 @@ const Navbar = (props) => {
                
                 <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>کلینیک و محیط درمانی</Link></li>
                
-                <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>آموزش</Link></li>
+                <li><Link to='/education' className={styles.naVbutton} onClick={props.onClick}>آموزش</Link></li>
                
                 <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>متخصصین همکار</Link></li>
                
@@ -91,7 +91,7 @@ const Navbar = (props) => {
                       )}
                 </li>
                
-                <li><Link to='' className={styles.naVbutton} onClick={props.onClick}>مقالات</Link></li>
+                <li><Link to='/soon' className={styles.naVbutton} onClick={props.onClick}>مقالات</Link></li>
               </Ul>
         </Container>    
     );

@@ -25,13 +25,14 @@ h1[lang="fa"] { direction: rtl; text-align: justify; }
     justify-content: center;
     text-align: center;
     color: #fff;
-    font-size: 16px;
-    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 18px;
+    font-family: anjoman;
     font-weight: 400;
     width: 70%;
 }
 
 .description h1 {
+    font-size: 28px;
     text-align: center;
     font-weight: 400;
     padding-bottom: 0.7rem;

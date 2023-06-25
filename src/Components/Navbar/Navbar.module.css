@@ -1,6 +1,6 @@
 .naVbutton {
     text-decoration: none;
-    color: #fff;
+    color: #f0f0f0;
     font-family: shabnam;
     flex-wrap: no-wrap;
     font-size: 14px;
@@ -16,7 +16,7 @@
 }
 
 .reserveButton {
-    background-color: #f7ffff;
+    background-color: #f0f0f0;
     color:#08343E;
     padding: 10px 7px;
     border-radius: 10px;
