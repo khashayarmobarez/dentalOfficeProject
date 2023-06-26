@@ -73,7 +73,7 @@ const Navbar = (props) => {
                 <li><Link to='/Reserve' className={`${styles.naVbutton} ${styles.reserveButton}`} onClick={props.onClick}>نوبت دهی آنلاین</Link></li>
 
                 <li className={styles.galleryButton}>
-                    <Link to='' className={styles.naVbutton} onClick={toggleDropdown}>گالری</Link>
+                    <Link to='/Home' className={styles.naVbutton} onClick={toggleDropdown}>گالری <span className={styles.dropdownTriangle}></span></Link>
                        {isDropdownOpen && (
                         <ul className={styles.dropdownMenu}>
                           <li>
