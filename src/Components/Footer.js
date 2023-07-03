@@ -14,10 +14,18 @@ const Footer = () => {
         <div className={styles.container}>
 
             <div className={styles.socialMedia}>
-                <img src={instagram} alt='insta logo' />
-                <img src={map} alt='map logo' />
-                <img src={waze} alt='waze logo' />
-                <img src={telegram} alt='telegram logo' />
+                <a href='https://www.instagram.com/dr.zandi.endo/' target='_blank' rel='noreferrer'>
+                    <img src={instagram} alt='insta logo' />
+                </a>
+                <a href='https://goo.gl/maps/mQj69Unz77tFbbis5' target='_blank' rel='noreferrer'>
+                    <img src={map} alt='map logo' />
+                </a>
+                <a href='https://waze.com/ul/htnked2wwm' target='_blank' rel='noreferrer'>
+                    <img src={waze} alt='waze logo' />
+                </a>
+                <a href='/'>
+                    <img src={telegram} alt='telegram logo' />
+                </a>
              </div>
 
             <div className={styles.simpleLine}></div>

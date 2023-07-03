@@ -8,6 +8,8 @@ import Home from './Components/Home';
 import Reserve from './Components/Reservation page/Reserve'
 import BuildingLoad from './Components/shared/BuildingLoad';
 import Education from './Components/education/Education';
+import Gallery from './Components/gallery/Gallery';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path='/Reserve' element={<Reserve /> } />
           <Route path='/education' element={<Education /> } />
+          <Route path='/gallery' element={<Gallery /> } />
           <Route path='/soon' element={<BuildingLoad />} />
           <Route path='/*' element={ <Navigate  to='/Home' /> } />
         </Routes>
