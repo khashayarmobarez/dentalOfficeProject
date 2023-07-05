@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -70vh;
+}
+
+.picsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 16rem;
+    height: 16rem;
+    margin: 4rem 2.5rem;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 950px) {
+    .container {
+        margin-top: 0;
+    }
+}

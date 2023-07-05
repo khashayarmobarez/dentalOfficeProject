@@ -18,6 +18,8 @@ const SliderLoader = () => {
         setIsLoading(false);
       }, 3000);
     }, []);
+
+    
   
     if (isLoading) {
       return (

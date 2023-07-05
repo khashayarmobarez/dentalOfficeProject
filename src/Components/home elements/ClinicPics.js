@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from './ClinicPics.module.css';
+import { Link } from 'react-router-dom';
 
 import pic1 from '../../media/pictures/Clinic pics/clinic pic 5.jpeg';
 
 
 const ClinicPics = () => {
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
     return (
         <div className={styles.Container}>
 
@@ -23,6 +29,9 @@ const ClinicPics = () => {
                     <a href='tel:02122647394'>021-22647394</a>
                     <a href='tel:02122647395'>021-22647395</a>
                     <a href='tel:02122002177'>021-22002177</a>
+                    <button className={styles.btn}>
+                        <Link to='/Reserve' style={{color: 'white' , textDecoration: 'none'}} onClick={scrollToTop}>نوبت دهی آنلاین</Link>
+                    </button>
                 </div>
                 <div className={styles.DoctorDirectCall}>
                    <a href='https://ig.me/m/dr.zandi.endo'>

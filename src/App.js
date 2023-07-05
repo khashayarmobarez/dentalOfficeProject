@@ -8,7 +8,8 @@ import Home from './Components/Home';
 import Reserve from './Components/Reservation page/Reserve'
 import BuildingLoad from './Components/shared/BuildingLoad';
 import Education from './Components/education/Education';
-import Gallery from './Components/gallery/Gallery';
+import Confrence from './Components/gallery/Confrence';
+import Clinic from './Components/gallery/Clinic';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path='/Reserve' element={<Reserve /> } />
           <Route path='/education' element={<Education /> } />
-          <Route path='/gallery' element={<Gallery /> } />
+          <Route path='/gallery/confrence' element={<Confrence /> } />
+          <Route path='/gallery/clinic' element={<Clinic /> } />
           <Route path='/soon' element={<BuildingLoad />} />
           <Route path='/*' element={ <Navigate  to='/Home' /> } />
         </Routes>

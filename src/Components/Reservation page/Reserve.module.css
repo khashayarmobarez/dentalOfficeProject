@@ -138,6 +138,12 @@ h3 {
     margin-top: 2rem;
   }
 
+  .explanation {
+    margin-top: 2rem;
+    color: #f2f2f2;
+    font-family: vazir;
+  }
+
   /* button styling  */
   .button {
     --color: #f9f9f9;

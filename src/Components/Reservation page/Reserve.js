@@ -78,6 +78,12 @@ const Reserve = () => {
                         <input className={styles.input} type='text' placeholder='...برای دکتر بنویسید' name='description' value={formData.description} onChange={handleChange}/>
             </div>
 
+            <div className={styles.explanation}>
+              <p>
+                تا 24 ساعت اینده با شما برای تعیین وقت تماس گرفته می شود
+              </p>
+            </div>
+
             {/* <div className={styles.picUpload}>
                 <h3>عکس از دندان</h3>
                 <label htmlFor="imageUpload" className={styles.customFileInput}>
