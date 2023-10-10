@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import styles from './Reserve.module.css'
-import { ToastContainer,toast } from 'react-toastify'
 
 const Reserve = () => {
 

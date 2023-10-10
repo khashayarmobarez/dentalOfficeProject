@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './albums.module.css'
 
 const BASE_URL = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/collections/confrence_gallery/records';
-const pictureBaseUrl = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/files/gru98paf6xrh921'
+const pictureBaseUrl = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/files/gru98paf6xrh921/'
 
 
 const Confrence = () => {
