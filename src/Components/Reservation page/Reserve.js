@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import styles from './Reserve.module.css'
+import { ToastContainer,toast } from 'react-toastify'
 
 const Reserve = () => {
 
@@ -23,7 +24,9 @@ const Reserve = () => {
 
     // handle submit 
       const handleSubmit = (event) => {
-        event.preventDefault();
+        if (event) {
+          event.preventDefault();
+        }
     
         // Send the form data to the server
         axios
