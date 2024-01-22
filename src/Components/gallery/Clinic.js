@@ -1,45 +1,39 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+import React from 'react';
 import styles from './albums.module.css'
 
-const BASE_URL = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/collections/clinic_gallery/records';
-const pictureBaseUrl = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/files/16miw221ebxyqor/'
+// graphql 
+import { useQuery } from '@apollo/client';
+import { GET_DENTAL_OFFICE_PICS } from '../../graphQl/queries';
 
 
 const Clinic = () => {
+
+    const { loading, error, data } = useQuery(GET_DENTAL_OFFICE_PICS);
+
     
-    const[pics, setPics] =useState([])
     
-    const getPics = async () => {
-      try {
-        console.log('Fetching videos...');
-        const response = await axios.get(`${BASE_URL}`);
-        console.log('Response:', response);
-        setPics(response.data.items)
-      } catch (error) {
-        console.error('Error fetching videos:', error);
-        throw error;
-      }
-    };
+    
+    if (loading) return <p>Loading...</p>;
+    
+    if (error) return <p>Error: {error.message}</p>;
+    
+    // Check if data is undefined
+    if (!data || !data.dentalOfficePics) {
+        return <p>No data available</p>;
+    }
 
-    useEffect(() => {
-        const fetchApi = async() => {
-            getPics()
-        }
-
-        fetchApi();
-}, [])
-
-
+    console.log(data); 
+    
     return (
         <div className={styles.container}>
             <div className={styles.picsContainer}>
                 {
-                    pics.map(pic => <img 
+                    data.dentalOfficePics.map(pic => <img 
                                     className={styles.image}
-                                    src={pictureBaseUrl + pic.id + '/' + pic.pictures}
+                                    src={pic.officePic.url}
                                     alt='clinic pictures'
-                                    key={pic.id} />)
+                                    key={pic.officePic.id} />)
                 }
             </div>
         </div>

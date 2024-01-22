@@ -1,45 +1,33 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+import React from 'react';
 import styles from './albums.module.css'
+import { useQuery } from '@apollo/client';
+import { GET_CONFRENCE_PICS } from '../../graphQl/queries';
 
-const BASE_URL = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/collections/confrence_gallery/records';
-const pictureBaseUrl = 'https://dentalbackend-dr-babak-zandi.apps.ir-thr-ba1.arvanpaas.ir/api/files/gru98paf6xrh921/'
+
 
 
 const Confrence = () => {
 
-    const[pics, setPics] =useState([])
+    const { loading, error, data } = useQuery(GET_CONFRENCE_PICS);
+
     
-    const getPics = async () => {
-      try {
-        console.log('Fetching videos...');
-        const response = await axios.get(`${BASE_URL}`);
-        console.log('Response:', response);
-        setPics(response.data.items)
-      } catch (error) {
-        console.error('Error fetching videos:', error);
-        throw error;
-      }
-    };
+    if (loading) return <p>Loading...</p>;
+    
+    if (error) return <p>Error: {error.message}</p>;
 
-    useEffect(() => {
-        const fetchApi = async() => {
-            getPics()
-        }
 
-        fetchApi();
-}, [])
-
+    console.log(data); 
 
     return (
         <div className={styles.container}>
             <div className={styles.picsContainer}>
                 {
-                    pics.map(pic => <img
+                    data.confrencePics.map(pic => <img
                                     className={styles.image} 
-                                    src={pictureBaseUrl + pic.id + '/' + pic.pictures}
+                                    src={pic.confrencePic.url}
                                     alt='confrence pictures'
-                                    key={pic.id} />)
+                                    key={pic.confrencePic.id} />)
                 }
             </div>
         </div>
@@ -47,3 +35,25 @@ const Confrence = () => {
 };
 
 export default Confrence;
+
+//     const[pics, setPics] =useState([])
+    
+//     const getPics = async () => {
+//       try {
+//         console.log('Fetching videos...');
+//         const response = await axios.get(`${BASE_URL}`);
+//         console.log('Response:', response);
+//         setPics(response.data.items)
+//       } catch (error) {
+//         console.error('Error fetching videos:', error);
+//         throw error;
+//       }
+//     };
+
+//     useEffect(() => {
+//         const fetchApi = async() => {
+//             getPics()
+//         }
+
+//         fetchApi();
+// }, [])

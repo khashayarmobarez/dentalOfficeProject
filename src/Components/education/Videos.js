@@ -1,40 +1,25 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React from 'react';
 import styles from './Videos.module.css'
 
 import Video from './Video';
 
-import { videoContext } from './Contexts/VideoContextProvider'
-
-
-const VideosLoader = () => {
-    const [isLoading, setIsLoading] = useState(true);
+// import { videoContext } from './Contexts/VideoContextProvider'
+import { useQuery } from '@apollo/client';
+import { GET_DOC_VIDEOS } from '../../graphQl/queries';
   
-    useEffect(() => {
-      // Simulate loading time
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 2500);
-    }, []);
   
-    if (isLoading) {
-      return (
-        <div className={styles.loaderContainer}>
-             <div className={styles.threeBody}>
-                <div className={styles.threeBodyDot}></div>
-                <div className={styles.threeBodyDot}></div>
-                <div className={styles.threeBodyDot}></div>
-            </div>
-        </div>
-      );
-    }
   
-    return <Videos />;
-  };
+ 
+  
+  const Videos = () => {
 
-const Videos = () => {
+    const { loading, error, data } = useQuery(GET_DOC_VIDEOS);
 
-    const videos = useContext(videoContext)
+    if (loading) return <p>Loading...</p>;
+    
+    if (error) return <p>Error: {error.message}</p>;
 
+    console.log(data)
     return (
         <div className={styles.Container}>
           <div className={styles.titleContainer}>
@@ -42,7 +27,7 @@ const Videos = () => {
           </div>
             <div className={styles.VideosContainer} >
                 {
-                videos.map(video => <Video 
+                data.doctorVideos.map(video => <Video 
                                         className={styles.video}
                                         key={video.id}
                                         videoData={video}
@@ -53,4 +38,4 @@ const Videos = () => {
     );
 };
 
-export default VideosLoader;
+export default Videos;

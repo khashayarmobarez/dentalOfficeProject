@@ -6,14 +6,14 @@ import sharebtn from '../../media/svg/shareIcon.svg'
 
 const Video = (props) => {
 
-    const {video_name,thumbnail,duration,video_player} = props.videoData;
+    const {videoName,thumbnail,duration,video} = props.videoData;
 
     const handleShare = () => {
         if (navigator.share) {
           navigator.share({
             title: 'dr.babak zandi website',
-            text: {video_name},
-            url: {video_player}
+            text: {videoName},
+            url: {video }
           })
             .then(() => console.log('Link shared successfully.'))
             .catch((error) => console.error('Error sharing link:', error));
@@ -25,15 +25,15 @@ const Video = (props) => {
     return (
         <div className={styles.card}>
             <div className={styles.card__content}>
-                    <img src={thumbnail} alt='img1'/>
+                    <img src={thumbnail.url} alt='img1'/>
                     
                     <div className={styles.videoData}>
-                        <h3>{video_name}</h3>
+                        <h3>{videoName}</h3>
                         <h3>{duration}</h3>
                     </div>
 
                     <div className={styles.btns}>
-                        <a href={video_player} target='_blank' rel='noreferrer' >
+                        <a href={video.url} target='_blank' rel='noreferrer' >
                             <button className={styles.btn}>پخش</button>
                         </a>
 
