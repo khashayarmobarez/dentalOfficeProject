@@ -6,6 +6,7 @@ import Video from './Video';
 // import { videoContext } from './Contexts/VideoContextProvider'
 import { useQuery } from '@apollo/client';
 import { GET_DOC_VIDEOS } from '../../graphQl/queries';
+import Loading from '../shared/Loading';
   
   
   
@@ -15,7 +16,7 @@ import { GET_DOC_VIDEOS } from '../../graphQl/queries';
 
     const { loading, error, data } = useQuery(GET_DOC_VIDEOS);
 
-    if (loading) return <p>Loading...</p>;
+    if (loading) return <Loading />;
     
     if (error) return <p>Error: {error.message}</p>;
 

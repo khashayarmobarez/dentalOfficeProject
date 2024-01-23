@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './albums.module.css'
 import { useQuery } from '@apollo/client';
 import { GET_CONFRENCE_PICS } from '../../graphQl/queries';
+import Loading from '../shared/Loading';
 
 
 
@@ -12,7 +13,7 @@ const Confrence = () => {
     const { loading, error, data } = useQuery(GET_CONFRENCE_PICS);
 
     
-    if (loading) return <p>Loading...</p>;
+    if (loading) return <Loading />;
     
     if (error) return <p>Error: {error.message}</p>;
 
