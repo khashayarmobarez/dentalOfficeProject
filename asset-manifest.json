@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dentalOfficeProject/static/css/main.f9b9b7d2.css",
-    "main.js": "/dentalOfficeProject/static/js/main.019be10e.js",
+    "main.css": "/dentalOfficeProject/static/css/main.d71c095f.css",
+    "main.js": "/dentalOfficeProject/static/js/main.59d376e7.js",
     "static/media/tabletVersion.png": "/dentalOfficeProject/static/media/tabletVersion.376e3e32b505bf7222c9.png",
     "static/media/clinic pic 5.jpeg": "/dentalOfficeProject/static/media/clinic pic 5.3177519ff272836bfb5a.jpeg",
     "static/media/socialBack1.jpg": "/dentalOfficeProject/static/media/socialBack1.d16096fc5989946db5c5.jpg",
@@ -51,11 +51,11 @@
     "index.html": "/dentalOfficeProject/index.html",
     "static/media/shareIcon.svg": "/dentalOfficeProject/static/media/shareIcon.308871beaf0826c4ea8df6b689ff3066.svg",
     "static/media/telegram_icon.svg": "/dentalOfficeProject/static/media/telegram_icon.2d32bfd727fab82456b0ecdfc9234c08.svg",
-    "main.f9b9b7d2.css.map": "/dentalOfficeProject/static/css/main.f9b9b7d2.css.map",
-    "main.019be10e.js.map": "/dentalOfficeProject/static/js/main.019be10e.js.map"
+    "main.d71c095f.css.map": "/dentalOfficeProject/static/css/main.d71c095f.css.map",
+    "main.59d376e7.js.map": "/dentalOfficeProject/static/js/main.59d376e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9b9b7d2.css",
-    "static/js/main.019be10e.js"
+    "static/css/main.d71c095f.css",
+    "static/js/main.59d376e7.js"
   ]
 }
