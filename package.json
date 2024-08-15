@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://drbabakzandi.com",
+  "homepage": "https://sheydayavari.github.io/dentalOfficeProject/",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.8.10",
